@@ -1,0 +1,159 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 22;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(16, 75, 213);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-link {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: rgb(0, 0, 0);
+}
+
+.hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-img {
+    max-width: 550px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-left: 100px;
+    color: rgb(rgb(0, 0, 0));
+}
+
+.hero-text {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.dough {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.dough-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dough-title {
+    color: rgb(rgb(0, 0, 0));
+}
+
+.dough-img {
+    width: 500px;
+}
+
+.dough-list {
+    list-style: disc;
+    margin-left: 50px;
+}
+
+.mor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mor-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mor-img {
+    width: 550px;
+    margin-right: 50px;
+}
+
+.mor-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(rgb(0, 0, 0));
+}
+
+.mor-list {
+    list-style: disc;
+    margin-left: 50px;
+}
+
+/*footer*/
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(29, 3, 224);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.footer-img {
+    width: 30px;
+    margin-left: 20px;
+}
